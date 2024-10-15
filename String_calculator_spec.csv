@@ -1,0 +1,8 @@
+Test Case Id,Description ,Input,Expected Output
+TC1,OutputZero_with_emptyInput,"""""",0
+TC2,OutputOne_with_single_number,5,5
+TC3,OutputSumof_input_number,"""5,4""",9
+TC4,OutputError_with_Invalid_Input,"""1,\n""",Error
+TC5,OutputIgnore_larger_number,"""1001,2""",2
+TC6,OutputException_with_negative_number,"""-1""",Exception
+TC7,Output_support_delimiter,"""//[]\n12**3""",6
